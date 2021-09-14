@@ -5,29 +5,36 @@ import {
   Route,
   NavLink,
 } from 'react-router-dom';
-import styles from './styles/navBar.module.css';
+import { HiCog, HiMicrophone } from 'react-icons/hi';
+import { IoIosArrowBack } from 'react-icons/io';
+import Home from './home';
+import Details from './details';
+import './styles/navBar.css';
 
 const NavBar = () => (
   <Router>
-    <header className={styles.navBarHeader}>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Rockets</NavLink>
-          </li>
-          <li>
-            <NavLink to="/details">Missions</NavLink>
-          </li>
-        </ul>
+    <header>
+      <nav className="navBarHeader">
+        <div className="arrow_cnt">
+          <NavLink to="/details">
+            <IoIosArrowBack />
+          </NavLink>
+          <h4 className="year">2021</h4>
+        </div>
+        <h4 className="app_name">Name of APP</h4>
+        <div className="cog_cnt">
+          <HiMicrophone />
+          <HiCog />
+        </div>
       </nav>
     </header>
 
     <Switch>
       <Route exact path="/">
-        {/* <Home /> */}
+        <Home />
       </Route>
       <Route path="/details">
-        {/* <Details /> */}
+        <Details />
       </Route>
     </Switch>
   </Router>
