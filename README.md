@@ -4,7 +4,8 @@
 
 > Simple SPA that shows the current top 10 Age of Empires II players. You can filter by name and see more information about the player.
 
-![image](https://user-images.githubusercontent.com/81584449/132874276-9bab7d78-ad21-443d-9cf0-f4ccc628d929.png)
+![image](https://user-images.githubusercontent.com/81584449/133716143-a19f4a50-a236-4bb5-ae3b-d631ea24411b.png)
+![image](https://user-images.githubusercontent.com/81584449/133716186-3d177a61-8fa6-41b5-aede-7859827cf9d3.png)
 
 Mobile ScreenShots
 
