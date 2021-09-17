@@ -14,7 +14,9 @@ const Home = () => {
     (leaderboardList.leaderboard.map((leaderboard) => (
       <div key={leaderboard.id} id={leaderboard.id} className="content">
         <NavLink key={leaderboard.id} to={`/${leaderboard.name}`}>
-          <FiArrowRightCircle className="arrow" />
+          <div className="arrow">
+            <FiArrowRightCircle />
+          </div>
         </NavLink>
         <h3 className="player_name">{leaderboard.name}</h3>
         <h4 className="player_mmr">
