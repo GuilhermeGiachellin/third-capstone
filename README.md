@@ -2,12 +2,10 @@
 
 # Top AOE2:DE Players
 
-> Simple SPA that shows the current top 10 Age of Empires II players. You can filter by name and see more information about the player.
+> Simple mobile SPA that shows the current top 10 Age of Empires II players. You can filter by name and see more information about the player.
 
 ![image](https://user-images.githubusercontent.com/81584449/133716143-a19f4a50-a236-4bb5-ae3b-d631ea24411b.png)
 ![image](https://user-images.githubusercontent.com/81584449/133716186-3d177a61-8fa6-41b5-aede-7859827cf9d3.png)
-
-Mobile ScreenShots
 
 ## Built With
 
@@ -17,9 +15,13 @@ Mobile ScreenShots
 - Jest
 - [AoE.net](https://aoe2.net/) API
 
+## Live view
+
+- Follow the [link](https://suspicious-turing-68b2ec.netlify.app/) to see the deployed page!
+
 ## Video
 
-[Link](https://www.loom.com/share/a451a571209c414b8663b7d8a2a812ba) to video on Loom.
+[Link](https://www.loom.com/share/1c82c0062f544375aa1bb10fb19d8e39) to video on the features.
 
 ### Install
 
