@@ -1,40 +1,47 @@
 header {
-    display: flex;
-    width: 100%;       
-    background-color: #ec4c8a;
-    height: 7vh;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  background-color: #ec4c8a;
+  height: 7vh;
+  align-items: center;
 }
 
 .navBarHeader {
-    display: flex;
-    justify-content: space-between; 
-    width: 90%; 
-    margin: auto;        
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
 
 .app_name {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .year {
-    width: fit-content;
-    margin: 0;
+  width: fit-content;
+  margin: 0;
 }
 
 .arrow_cnt {
-    display: flex;
-    width: 25%;   
-    
-}
-
-.cog_cnt {
-    display: flex;
-    width: 25%; 
-    justify-content: flex-end;     
+  display: flex;
+  width: 25%;
+  align-items: center;
 }
 
 .cog_cnt > svg {
-    margin-left: 2vw;    
+  margin-left: 2vw;
+}
+
+.arrow_cnt > a > svg {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.cog_cnt {
+  display: flex;
+  width: 25%;
+  justify-content: flex-end;
 }
