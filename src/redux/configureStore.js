@@ -2,7 +2,6 @@ import {
   createStore, combineReducers, applyMiddleware,
 } from 'redux';
 import thunk from 'redux-thunk';
-import logger from 'redux-logger';
 import leaderboardReducer from './leaderboard/leaderboardRedux';
 
 const reducer = combineReducers({
@@ -11,7 +10,7 @@ const reducer = combineReducers({
 
 const store = createStore(
   reducer,
-  applyMiddleware(logger, thunk),
+  applyMiddleware(thunk),
 );
 
 export default store;
