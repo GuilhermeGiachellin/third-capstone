@@ -10,12 +10,11 @@ import '@testing-library/jest-dom/extend-expect';
 
 describe('Test Nav title render', () => {
   test('Render nav title', async () => {
-    const { debug } = render(
+    render(
       <Provider store={store}>
         <App />
       </Provider>,
     );
-    debug();
     expect(screen.getByText(/AOE2:DE Top 10/i)).toBeInTheDocument();
   });
 });

@@ -34,7 +34,6 @@ export const getData = () => async (dispatch) => {
     type: GET_LEADERBOARD,
     payload: playerArray(response.data.leaderboard),
   });
-  // return response.data.leaderboard;
 };
 
 export const getFiltered = (newArr, savedArr) => ({
