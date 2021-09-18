@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import React, { useEffect } from 'react';
+import NavBar from './components/navBar';
+import Home from './components/home';
+import Details from './components/details';
+import { getData } from './redux/leaderboard/leaderboardRedux';
 
 function App() {
+  const leaderboardList = useSelector((state) => state.leaderboardReducer);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (!leaderboardList.length) {
+      dispatch(getData());
+    }
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          { leaderboardList.leaderboard.map((leaderboard) => (
+            <Route key={leaderboard.id} path={`/${leaderboard.name}`}>
+              <Details props={leaderboard} />
+            </Route>
+          ))}
+        </Switch>
+      </Router>
     </div>
   );
 }

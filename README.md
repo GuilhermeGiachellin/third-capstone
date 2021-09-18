@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Top AOE2:DE Players
 
-## Available Scripts
+> Simple mobile SPA that shows the current top 10 Age of Empires II players. You can filter by name and see more information about the player.
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/81584449/133716143-a19f4a50-a236-4bb5-ae3b-d631ea24411b.png)
+![image](https://user-images.githubusercontent.com/81584449/133716186-3d177a61-8fa6-41b5-aede-7859827cf9d3.png)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React.
+- Redux.
+- JavaScript.
+- Jest
+- [AoE.net](https://aoe2.net/) API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Live view
 
-### `npm test`
+- Follow the [link](https://suspicious-turing-68b2ec.netlify.app/) to see the deployed page!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Video
 
-### `npm run build`
+[Link](https://www.loom.com/share/1c82c0062f544375aa1bb10fb19d8e39) to video on the features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - In the terminal go to the folder you going to work and write the next. 
+  ```
+  git clone https://github.com/GuilhermeGiachellin/third-capstone.git
+  ```
+  - Next go to VS Code editor and open the folder where you installed the repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
 
-### `npm run eject`
+- Clone the repo.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Run `npm install` on your terminal.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Run `npm run build` on your terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Open the terminal in your machine and run `npm start` to start server.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Authors
 
-## Learn More
+👤 **Guilherme Giachellin**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [GuilhermeGiachellin](https://github.com/GuilhermeGiachellin)
+- Linkedin: [LinkedIn](https://www.linkedin.com/in/guilherme-giachellin-2599771b9/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](https://github.com/GuilhermeGiachellin/third-capstone/issues).
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Special thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
